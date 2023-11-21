@@ -1,0 +1,19 @@
+.reviewDiv{
+    padding: 10px;
+}
+
+.reviewQues{
+    padding: 15px;
+}
+
+.reviewHeading{
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0174d3;
+}
+
+.queLabel{
+    padding-bottom: 10px;
+}

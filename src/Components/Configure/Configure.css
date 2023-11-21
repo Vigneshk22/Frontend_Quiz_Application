@@ -1,0 +1,57 @@
+.ConfigureContainer{
+    width: max-content;
+    height:25rem;
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius:40px;
+    overflow: hidden;
+    background: linear-gradient(65deg,#41ecec,#269de1);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 2.5rem;
+    box-shadow: 2px 2px 8px rgb(72, 182, 237);
+    box-shadow: -2px -2px 8px rgb(72, 182, 237);
+}
+
+.configureInput{
+    min-width:500px;
+    margin:20px 10px 0px 0px;
+    padding:5px;
+    border:none;
+    border-radius:20px;
+    color: #0275d8;
+    padding-left: 10px;
+}
+
+.configureLabel{
+    font-size:14px;
+    font-weight: 600;
+    padding: 10px;
+    color: #0062ff;
+}
+
+.Section{
+    margin:10px 20px;
+}
+
+.saveBtn{
+    font-size:16px;
+    margin-top: 30px;
+    font-weight:400;
+    border:none;
+    border-radius:20px;
+    background-color:#0062ff;
+    color:white;
+    margin:10px 20px;
+    padding:10px 30px;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.saveBtn:hover{
+    color: black;
+}

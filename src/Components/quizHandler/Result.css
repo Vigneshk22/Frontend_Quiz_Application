@@ -1,0 +1,51 @@
+.resultsContainer{
+    width: 50rem;
+    height: max-content;
+    background-color: transparent;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px rgb(72, 182, 237);
+    box-shadow: -2px -2px 8px rgb(72, 182, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.finalScore{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+}
+
+.passText{
+    font-size: 35px;
+    color: green;
+    font-weight: 600;
+}
+
+.failText{
+    font-size: 35px;
+    color: red;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+.dashboard{
+    border: none;
+    width: 10rem;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    color: #269de1;
+    font-weight: 600;
+}
+
+.dashboard:hover{
+    color: black;
+}

@@ -1,0 +1,118 @@
+.login-form{
+    width: 490px;
+    height: 535px;
+    padding: 1.5rem;
+    background: linear-gradient(65deg,#41ecec,#269de1);
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px rgb(72, 182, 237);
+    box-shadow: -2px -2px 8px rgb(72, 182, 237);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%,-50%);
+}
+
+.login-form h3{
+    color: #006cfa;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+.input{
+    border: none;
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff;
+    transition: 0.4s ease;
+    outline: none;
+}
+
+.input:focus,
+.input:valid,
+.input::placeholder{
+    color: #269de1;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.icon{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.email{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border:#269de1 solid ;
+}
+
+.password{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border:#269de1 solid ;
+}
+
+.remember{
+    color:#015cd3;
+    font-family:cursive;
+}
+
+.check{
+    outline: none;
+    margin-right: 4px;
+}
+
+.checkbox{
+    padding: 3px;
+}
+
+.btn{
+    justify-content: center;
+}
+
+form{
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+}
+.submit{
+    border: none;
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    color: #269de1;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+.submit:hover{
+    color: #41ecec;
+    background-color: #015cd3;
+    transition: 0.2s ease;
+}
+
+.signup-link{
+    justify-content: end;
+    display: flex;
+    margin-top: 5px;
+    font-family: 'Jost', sans-serif;}
+
+.signup-link a{
+    margin-left: 3px;
+    color: #006cfa;
+    font-family: 'Jost', sans-serif;
+}

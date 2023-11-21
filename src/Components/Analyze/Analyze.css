@@ -1,0 +1,50 @@
+.Analyze-Container{
+    background: linear-gradient(65deg,#41ecec,#269de1);
+    box-shadow: 2px 2px 8px rgb(72, 182, 237);
+    box-shadow: -2px -2px 8px rgb(72, 182, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+.analyzeHeader{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(3, 95, 254);
+}
+
+.analyzeThead th{
+    padding: 15px;
+}
+
+.analyzeTbody td{
+    padding: 15px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.analyzeBtn{
+    border: none;
+    width: 70px;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    color: #269de1;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.analyzeBtn:hover{
+    color: #41ecec;
+    background-color: #015cd3;
+    transition: 0.2s ease;
+}

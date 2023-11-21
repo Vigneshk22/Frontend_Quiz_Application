@@ -1,0 +1,51 @@
+.reportsContainer{
+    padding: 1.5rem;
+    width: 30rem;
+    background: linear-gradient(65deg,#41ecec,#269de1);
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px rgb(72, 182, 237);
+    box-shadow: -2px -2px 8px rgb(72, 182, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.reportThead th{
+    padding: 1rem;
+    text-align: center;
+}
+
+.reportTbody td{
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
+.reportsHeading{
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0174d3;
+}
+
+.reportBtn{
+    border: none;
+    width: 80px;
+    height: 35px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    color: #269de1;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.reportBtn:hover{
+    color: #41ecec;
+    background-color: #015cd3;
+    transition: 0.2s ease;
+}

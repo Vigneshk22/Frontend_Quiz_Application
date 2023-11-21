@@ -1,0 +1,74 @@
+.addQue{
+    background-color: #61D9F5;
+    color: aliceblue;
+    width: 10rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+.addQue:hover{
+    color: black;
+}
+
+.formQButton{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 0;
+    color: black;
+    font-size: medium;
+}
+
+.formQButton:hover{
+    color:#0051ff;
+}
+
+.nextBtn{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 0;
+    color: black;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextBtn:hover{
+    color:#0051ff;
+    box-shadow: -1px -1px -2px black;
+}
+
+.delete-Btn{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: red;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.delete-Btn:hover{
+    color: whitesmoke;
+}
+
+.questionDelete{
+   padding-top: 1rem;
+}
+
+.options{
+    padding: 0.5rem;
+}
+
+.optionsLabel{
+    padding-left: 10px;
+}
+
+.question{
+    padding-bottom: 10px;
+}
