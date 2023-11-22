@@ -16,12 +16,17 @@
 
 .reportThead th{
     padding: 1rem;
+    padding-left: 0.25rem;
     text-align: center;
+    font-size: 25px;
+    color: #102093;
 }
 
-.reportTbody td{
+.reportTbody-td{
     padding: 0.5rem;
     font-weight: 500;
+    font-size: 23px;
+    color: black;
 }
 
 .reportsHeading{
@@ -29,7 +34,7 @@
     display: flex;
     font-size: 45px;
     font-weight: 700;
-    color: #0174d3;
+    color: white;
 }
 
 .reportBtn{

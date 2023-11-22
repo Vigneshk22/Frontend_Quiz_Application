@@ -11,6 +11,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 
 import "./ExamReview.css";
+import ReviewNavbar from "../Navbar/ReviewNavbar";
 
 const ExamReview = () => {
   const [examQuestions, setExamQuestions] = useState([]);
@@ -55,9 +56,9 @@ const ExamReview = () => {
 
   return (
     <div>
+            <ReviewNavbar/>
       <div className="reviewContainer">
         <TableContainer component={Paper}>
-          <div className="reviewHeading">Exam Review</div>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
               {/* <TableRow style={{ backgroundColor: "whitesmoke" }}>

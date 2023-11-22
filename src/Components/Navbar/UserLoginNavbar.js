@@ -11,7 +11,7 @@ const UserLoginNavbar = () => {
   return (
     <nav className="navbar" style={{position:"sticky"}}>
       <Link className="heading" to={"#"}>
-        Quizol
+        QUIZOL
       </Link>
 
       <div className="logoutbtn">

@@ -20,8 +20,18 @@
 }
 
 .option{
-    padding: 1rem;
-    
+    padding: 1rem;  
+}
+
+.singleQuestion{
+    font-family: 'Jost', sans-serif;
+}
+
+.questionHeading{
+    font-family: 'Jost', sans-serif;
+    color: #0049a9;
+    font-weight: 700;
+    margin-bottom:10px ;
 }
 
 .subNext{
@@ -52,6 +62,7 @@
     color: #269de1;
     font-family: 'Jost', sans-serif;
     font-weight: 700;
+    font-size: 20px;
 }
 
 #optBtn:hover{

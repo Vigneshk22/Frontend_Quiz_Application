@@ -41,10 +41,10 @@ const Analyze = (UId) => {
                 <table>
                     <thead className='analyzeThead'>
                     <tr>
-                        <th>UserId</th>
-                        <th>Exam</th>
-                        <th>Score</th>
-                        <th>Review</th>
+                        <th className='userId-analyze'>UserId</th>
+                        <th className='esr-analyze'>Exam</th>
+                        <th className='esr-analyze'>Score</th>
+                        <th className='esr-analyze'>Review</th>
                     </tr>
                     </thead>
                     <tbody className='analyzeTbody'>

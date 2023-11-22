@@ -11,7 +11,7 @@ const AdminLoginNavbar = () => {
   return (
     <nav className="navbar" style={{position:"sticky"}}>
       <Link className="heading" to={"/AdminHome"}>
-        Quizol
+      QUIZOL
       </Link>
       <div className="navbarItems">
       <Link className="report" to={"/AdminHome"}>

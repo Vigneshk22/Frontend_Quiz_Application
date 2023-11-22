@@ -11,24 +11,32 @@
     transform: translate(-50%,-50%);
     border-radius: 3rem;
     padding: 1rem;
+    width: 650px;
 }
 
 .analyzeHeader{
     justify-content: center;
     display: flex;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
-    color: rgb(3, 95, 254);
+    color: white;
 }
 
-.analyzeThead th{
+.userId-analyze{
     padding: 15px;
+    font-size: larger;
+    text-align: left;
 }
 
+.esr-analyze{
+    padding: 15px;
+    font-size: larger;
+    text-align: center;
+}
 .analyzeTbody td{
     padding: 15px;
     font-weight: 400;
-    font-size: medium;
+    font-size: large;
 }
 
 .analyzeBtn{

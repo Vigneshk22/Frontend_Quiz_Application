@@ -90,7 +90,7 @@ const Question = ({
 
   return (
     <div className="questionContainer">
-      <h1>Question {currQues + 1} :</h1>
+      <h1 className="questionHeading">Question {currQues + 1} :</h1>
       <div className="singleQuestion">
       <h2>{questions[currQues]?.questionTitle}</h2>
 

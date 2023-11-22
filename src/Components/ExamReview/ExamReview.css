@@ -4,16 +4,13 @@
 
 .reviewQues{
     padding: 15px;
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
 }
 
-.reviewHeading{
-    justify-content: center;
-    display: flex;
-    font-size: 40px;
-    font-weight: 600;
-    color: #0174d3;
-}
+
 
 .queLabel{
     padding-bottom: 10px;
+    font-family: 'Jost', sans-serif;
 }

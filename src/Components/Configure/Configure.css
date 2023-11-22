@@ -25,13 +25,14 @@
     border-radius:20px;
     color: #0275d8;
     padding-left: 10px;
+    border:#269de1 solid ;
 }
 
 .configureLabel{
-    font-size:14px;
+    font-size:20px;
     font-weight: 600;
     padding: 10px;
-    color: #0062ff;
+    color: white;
 }
 
 .Section{

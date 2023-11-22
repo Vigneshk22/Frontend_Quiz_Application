@@ -44,7 +44,7 @@ const UserReports = (UId) => {
          <tbody className='reportTbody'>
          {examDatas.map((exam, index) => (
             <tr key={index}>
-              <td align='center'>{exam.examname}</td>
+              <td className='reportTbody-td' align='center'>{exam.examname}</td>
               <td align='center'><Link to={`/quiz/${exam._id}`}><button className='reportBtn'>Go to exam</button></Link></td>
               {/* <td align='center'>{userDatas.findIndex(u=> u.examId === exam._id) > -1 ? (<span style={{border:"none",borderRadius:"10px",padding:"5px",backgroundColor:"#CC0000",color:"#EEEEEE",fontWeight:"500" }}>{"Solved"}</span>) : <span style={{border:"none",borderRadius:"10px",padding:"5px",backgroundColor:"#007E33",color:"#EEEEEE",fontWeight:"500" }}>{"Available"}</span>}</td> */}
             </tr>

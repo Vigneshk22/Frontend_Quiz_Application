@@ -14,7 +14,7 @@
     border-radius: 25px;
     box-shadow: 2px 2px 8px rgb(72, 182, 237);
     box-shadow: -2px -2px 8px rgb(72, 182, 237);
-    color: #0051ff;
+    color: white;
     font-weight: 600;
     font-family: 'Jost', sans-serif;
     position: relative;
@@ -27,7 +27,7 @@
 .createQuiz:hover{
 
     font-size: 24px;
-    color:aliceblue;
+    color:black;
 }
 
 .quizzes{

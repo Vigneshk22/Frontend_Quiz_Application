@@ -7,8 +7,9 @@ const NormalNavbar = () => {
   return (
     <nav className="navbar">
       <Link className="heading" to={"#"}>
-        Quizol
+      QUIZOL
       </Link>
+
     </nav>
   );
 };

@@ -17,6 +17,7 @@ import Analyze from './Components/Analyze/Analyze';
 import UserReports from './Components/Reports/UserReports';
 import QuizController from './Components/QuizController/QuizController';
 import UserLoginNavbar from './Components/Navbar/UserLoginNavbar';
+import ReviewNavbar from './Components/Navbar/ReviewNavbar';
 import NormalNavbar from './Components/Navbar/NormalNavbar';
 import Result from "./Components/quizHandler/Result";
 import ExamReview from "./Components/ExamReview/ExamReview";
@@ -84,6 +85,7 @@ function App() {
               <Route path="/userHome" element={<UserHome/>}/>
               <Route path="/adminloginNavbar" element={<AdminLoginNavbar/>}/>
               <Route path="/userloginNavbar" element={<UserLoginNavbar/>}/>
+              <Route path="/reviewNavbar" element={<ReviewNavbar/>}/>
               <Route path="/normalNavbar" element={<NormalNavbar/>}/>
               <Route path="/analyze/:id" element={<Analyze UID={userId}/>} />
               <Route path="/configure/:id" element={<Configure />} />

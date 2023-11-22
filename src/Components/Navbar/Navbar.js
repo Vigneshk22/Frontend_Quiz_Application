@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
        <nav className="navbar">
             <Link className="heading" to={'/sign-in'}>
-              Quizol
+            QUIZOL
             </Link>
             <div className="navbarItems" id="navbarTogglerDemo02">
               <ul className="navbarNav">
