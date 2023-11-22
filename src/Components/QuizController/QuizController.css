@@ -1,0 +1,14 @@
+.timer-container{
+    width: 5.5rem;
+    height: 2rem;
+    background: linear-gradient(65deg,#41ecec,#269de1);
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.timer{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}

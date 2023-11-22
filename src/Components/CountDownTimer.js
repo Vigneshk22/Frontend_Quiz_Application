@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./QuizController/QuizController.css";
 
 const CountDownTimer = ({hoursMinSecs}) => {
    
@@ -30,8 +31,8 @@ const CountDownTimer = ({hoursMinSecs}) => {
 
     
     return (
-        <div>
-            <p>{`${hrs.toString().padStart(2, '0')}:${mins
+        <div className='timer-container'>
+            <p className='timer'>{`${hrs.toString().padStart(2, '0')}:${mins
             .toString()
             .padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p> 
         </div>
